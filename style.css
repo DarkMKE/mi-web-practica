@@ -1,0 +1,65 @@
+body {
+    font-family: Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: #1f0e07;
+}
+
+div {
+    display: block;
+    background-color: #BDD97F;
+    padding: 20px;
+    border-radius: 16px;
+    border-color:#1f0e07;
+    border-style: solid;
+    border-width: 2px;
+    margin: 20px auto;
+    width: 50%;
+    
+}
+
+h1 {
+    color: #BDD97F;
+}
+
+h2 {
+    color: #1f0e07;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color:#1f0e07;
+    border-width: 2px;
+}
+
+button {
+    padding: 16px;
+    background-color: #F5EFE2;
+    color: #1f0e07;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 8px;
+    border-color:#1f0e07;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+#userList {
+    align-items: center;
+    margin-top: 20px;
+    border: #1f0e07 solid 2px;
+    border-radius: 8px;
+    background-color: #F5EFE2;
+    padding: 20px;
+    width: 50%;
+}
+
+li {
+    align-self: auto;
+    list-style: none;
+    margin: 10px;
+    font-size: 18px;
+}
