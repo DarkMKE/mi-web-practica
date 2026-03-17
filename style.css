@@ -1,65 +1,35 @@
 body {
-    font-family: Geneva, Tahoma, sans-serif;
-    text-align: center;
-    background-color: #1f0e07;
-}
-
-div {
-    display: block;
-    background-color: #BDD97F;
-    padding: 20px;
-    border-radius: 16px;
-    border-color:#1f0e07;
-    border-style: solid;
-    border-width: 2px;
-    margin: 20px auto;
-    width: 50%;
-    
+    min-height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Tahoma;
+    background-color: #002A32;
+    height: max-content;
 }
 
 h1 {
-    color: #BDD97F;
+    color: #ED254E;
 }
 
-h2 {
-    color: #1f0e07;
-}
-
-input {
+div {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: #ED254E solid 2px;
+    border-radius: 1rem;
     padding: 10px;
-    font-size: 16px;
-    border-style: solid;
-    border-radius: 8px;
-    border-color:#1f0e07;
-    border-width: 2px;
+    color: #ED254E;
+    font-size: 2rem;
 }
 
 button {
-    padding: 16px;
-    background-color: #F5EFE2;
-    color: #1f0e07;
-    font-size: 16px;
-    font-weight: bold;
-    border-style: solid;
-    border-radius: 8px;
-    border-color:#1f0e07;
-    border-width: 2px;
+    width: 200px;
+    height: 200px;
+    background-color: #ED254E;
+    color: #002A32;
+    border-radius: 1rem;
+    padding: 10px 20px;
     cursor: pointer;
-}
-
-#userList {
-    align-items: center;
-    margin-top: 20px;
-    border: #1f0e07 solid 2px;
-    border-radius: 8px;
-    background-color: #F5EFE2;
-    padding: 20px;
-    width: 50%;
-}
-
-li {
-    align-self: auto;
-    list-style: none;
-    margin: 10px;
-    font-size: 18px;
+    font-size: 1.25rem;
 }
